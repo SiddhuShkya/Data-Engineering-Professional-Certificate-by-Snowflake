@@ -233,7 +233,7 @@ We're going to get right back into it by talking about a different form of scali
 
 If there aren't enough resources to execute all the queries, Snowflake starts queuing the queries and you just have to wait for all of them to get handled sequentially.
 
-Example:
+### Example:
 
 ```text
 Imagine there are three data engineers working with Tasty Bytes data at the same time, one submits a query that occupies the resources of the data warehouse. Then the second uses that same warehouse and has to wait for the first to finish. Then the third runs a query and is behind both of the others in line. 
